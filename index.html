@@ -43,6 +43,18 @@
       color: var(--muted);
       font-size: 0.95rem;
     }
+    .links {
+      margin: 8px 0 22px;
+      font-size: 0.95rem;
+    }
+    .links a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(15, 118, 110, 0.35);
+    }
+    .links a:hover {
+      border-bottom-color: var(--accent);
+    }
     @media (max-width: 700px) {
       main { margin: 20px auto; }
       .card { padding: 18px; }
@@ -54,6 +66,7 @@
     <article class="card">
       <h1>Privacy Policy for TinnitusAid</h1>
       <p class="meta">Effective date: 2026-04-19</p>
+      <p class="links">Need help? Visit <a href="./support.html">Support</a>.</p>
 
       <p>TinnitusAid ("the App") is developed by Chao Zhao ("we", "us", "our").</p>
 
